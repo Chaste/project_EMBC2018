@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<hemelbsettings>
+  <simulation cycles="3" cyclesteps="1000" stresstype="1" />
+  <geometry>
+    <datafile path="bifurcation_cut.gmy" />
+  </geometry>
+  <inlets>
+    <inlet>
+      <pressure amplitude="0.0" mean="80.01" phase="0.0" />
+      <normal x="-0.0560777474941" y="0.762765339939" z="0.644239336291" />
+      <position x="0.0124882418436" y="0.0347530206156" z="0.0417894982111" />
+    </inlet>
+  </inlets>
+  <outlets>
+    <outlet>
+      <pressure amplitude="0.0" mean="80.0" phase="0.0" />
+      <normal x="-0.0484741366245" y="-0.989768366942" z="-0.134197011438" />
+      <position x="0.0125973733807" y="0.0483824400944" z="0.0429848514194" />
+    </outlet>
+    <outlet>
+      <pressure amplitude="0.0" mean="80.0" phase="0.0" />
+      <normal x="-0.047109245651" y="-0.98983431486" z="-0.134196676934" />
+      <position x="0.0112402318144" y="0.0475561790698" z="0.0506114500782" />
+    </outlet>
+  </outlets>
+  <visualisation>
+    <centre x="0.0" y="0.0" z="0.0" />
+    <orientation latitude="45.0" longitude="45.0" />
+    <display brightness="0.03" zoom="1.0" />
+    <range maxstress="0.1" maxvelocity="0.1" />
+  </visualisation>
+</hemelbsettings>
